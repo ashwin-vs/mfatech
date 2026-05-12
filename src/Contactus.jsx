@@ -422,7 +422,7 @@ export default function ContactUs() {
                                             <div className="grid sm:grid-cols-2 gap-5">
                                                 <div className="field-wrap">
                                                     <label className="form-label">Company <span className="text-yellow-400"></span></label>
-                                                    <input name="company" value={form.company} onChange={handleChange} placeholder="MSQUE"
+                                                    <input name="company" value={form.company} onChange={handleChange} placeholder="MFATech"
                                                         className={`form-input ${errors.company ? 'error' : ''}`} />
                                                     {errors.company && <p className="error-msg">{errors.company}</p>}
                                                 </div>
