@@ -117,8 +117,10 @@ export default function ServicesPage() {
                                         }}
                                     >
                                         <span className="font-display font-bold text-sm tracking-wide"
-                                            style={{ color: activeCategory === cat ? "#facc15" : "rgba(255,255,255,0.5)",  fontFamily:
-                "Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif", }}>
+                                            style={{
+                                                color: activeCategory === cat ? "#facc15" : "rgba(255,255,255,0.5)", fontFamily:
+                                                    "Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+                                            }}>
                                             {cat}
                                         </span>
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -132,7 +134,7 @@ export default function ServicesPage() {
                                     </button>
 
                                     {/* ── Sub-items (visible when category is active) ── */}
-                                    <div className={`flex flex-col gap-1 overflow-hidden transition-all duration-300 ${activeCategory === cat ? 'max-h-48 opacity-100' : 'max-h-0 opacity-0'}`}>
+                                    <div className={`flex flex-col gap-1 overflow-hidden transition-all duration-300 ${activeCategory === cat ? 'max-h-100 opacity-100' : 'max-h-0 opacity-0'}`}>
                                         {servicesRegistry[cat].map(service => (
                                             <button
                                                 key={service.id}

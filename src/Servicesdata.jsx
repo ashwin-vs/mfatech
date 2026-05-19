@@ -72,6 +72,274 @@ export const trainingJDE = {
   ],
 }
 
+
+// ─────────────────────────────────────────────
+//  TRAINING — JD EDWARDS CNC
+// ─────────────────────────────────────────────
+export const trainingJDECNC = {
+  id: "training-jde-cnc",
+  label: "CNC Training",
+  category: "Training",
+  sections: [
+    {
+      id: "hero",
+      type: "hero",
+      data: {
+        title: "JDE CNC Training",
+        subtitle: "Build Strong Technical Expertise for JDE Administration",
+        description:
+          "Our JD Edwards CNC training equips technical teams with the knowledge required to manage, configure, monitor, and support JD Edwards EnterpriseOne environments effectively.",
+      },
+    },
+
+    {
+      id: "overview",
+      type: "two-column",
+      data: {
+        eyebrow: "JD EDWARDS CNC TRAINING",
+        title: "Practical CNC Training for JDE Technical Teams",
+        description:
+          "At MFATech, our JD Edwards CNC training is designed for system administrators, technical consultants, and IT support teams responsible for maintaining EnterpriseOne environments.\n\nThe training focuses on real-world administration activities including environment management, package deployment, security configuration, server management, troubleshooting, and system monitoring.\n\nWe combine theoretical understanding with hands-on exercises to ensure participants gain practical operational confidence.\n\nWhat We Deliver:",
+        image: {
+          src: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+          alt: "JD Edwards CNC Training",
+        },
+        features: [
+          "EnterpriseOne architecture overview",
+          "Environment and path code management",
+          "Package build and deployment training",
+          "User and security administration",
+          "Server manager and system monitoring",
+          "Troubleshooting and performance optimization",
+        ],
+      },
+    },
+
+    {
+      id: "process",
+      type: "icon-cards",
+      data: {
+        title: "Our Training Approach",
+        subtitle:
+          "Structured technical learning for effective JDE administration",
+        cards: [
+          {
+            title: "Architecture Understanding",
+            description:
+              "Participants learn the core architecture and components of JD Edwards EnterpriseOne.",
+          },
+          {
+            title: "Hands-On Administration",
+            description:
+              "Practical sessions on environment setup, configuration, and management.",
+          },
+          {
+            title: "Deployment & Package Management",
+            description:
+              "Training on package builds, deployments, and change management processes.",
+          },
+          {
+            title: "Security & User Management",
+            description:
+              "Guidance on security configuration, roles, permissions, and access control.",
+          },
+          {
+            title: "Monitoring & Troubleshooting",
+            description:
+              "Teams learn system monitoring, log analysis, and issue resolution techniques.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: "benefits",
+      type: "benefits",
+      data: {
+        title: "Business Benefits",
+        description:
+          "Why JDE CNC training strengthens ERP operations",
+        items: [
+          {
+            title: "Improved System Stability",
+            description:
+              "Well-trained administrators ensure reliable system performance",
+          },
+          {
+            title: "Reduced Downtime",
+            description:
+              "Technical teams can identify and resolve issues quickly",
+          },
+          {
+            title: "Better Security Management",
+            description:
+              "Proper administration minimizes security and access risks",
+          },
+          {
+            title: "Efficient Deployment Processes",
+            description:
+              "Streamlined package and environment management improves productivity",
+          },
+          {
+            title: "Enhanced Internal Support Capability",
+            description:
+              "Organizations become less dependent on external support resources",
+          },
+        ],
+        additionalInfo:
+          "Our JD Edwards CNC training can be tailored based on your EnterpriseOne version, infrastructure setup, and technical team requirements.",
+      },
+    },
+
+    {
+      id: "cta",
+      type: "cta",
+      data: {
+        title: "Ready to Strengthen Your JDE Technical Team?",
+        description:
+          "Let’s design a JD Edwards CNC training program aligned with your infrastructure and operational goals.",
+        buttonText: "Get in Touch",
+      },
+    },
+  ],
+}
+
+
+
+
+// ─────────────────────────────────────────────
+//  TRAINING — JD EDWARDS ORCHESTRATOR
+// ─────────────────────────────────────────────
+export const trainingJDEOrchestrator = {
+  id: "training-jde-orchestrator",
+  label: "Orchestrator Training",
+  category: "Training",
+  sections: [
+    {
+      id: "hero",
+      type: "hero",
+      data: {
+        title: "JDE Orchestrator Training",
+        subtitle: "Enable Automation. Simplify Integration. Accelerate Digital Transformation.",
+        description:
+          "Our JD Edwards Orchestrator training helps technical and functional teams learn how to design, manage, and deploy orchestrations that automate business processes and integrate EnterpriseOne with external systems.",
+      },
+    },
+
+    {
+      id: "overview",
+      type: "two-column",
+      data: {
+        eyebrow: "JD EDWARDS ORCHESTRATOR TRAINING",
+        title: "Practical Training for Enterprise Automation",
+        description:
+          "At MFATech, our JD Edwards Orchestrator training is designed to help organizations unlock the full power of EnterpriseOne automation and integration capabilities.\n\nParticipants gain hands-on experience in creating orchestrations, consuming REST services, configuring notifications, automating repetitive tasks, and integrating JDE with third-party applications.\n\nThe training focuses on real-world business use cases, ensuring teams can confidently build and maintain orchestrations within their enterprise environment.\n\nWhat We Deliver:",
+        image: {
+          src: "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg",
+          alt: "JD Edwards Orchestrator Training",
+        },
+        features: [
+          "Introduction to JD Edwards Orchestrator",
+          "Orchestration design and configuration",
+          "REST API and connector integration",
+          "Form requests and data service usage",
+          "Notifications and automation workflows",
+          "Hands-on orchestration development exercises",
+        ],
+      },
+    },
+
+    {
+      id: "process",
+      type: "icon-cards",
+      data: {
+        title: "Our Training Approach",
+        subtitle:
+          "Structured learning for enterprise automation success",
+        cards: [
+          {
+            title: "Core Orchestrator Concepts",
+            description:
+              "Participants learn the architecture, components, and capabilities of JD Edwards Orchestrator.",
+          },
+          {
+            title: "Hands-On Workflow Design",
+            description:
+              "Practical sessions focused on building orchestrations for real business scenarios.",
+          },
+          {
+            title: "Integration & API Training",
+            description:
+              "Users learn how to connect JDE with external applications and services.",
+          },
+          {
+            title: "Automation Best Practices",
+            description:
+              "Training includes governance, error handling, security, and performance considerations.",
+          },
+          {
+            title: "Real-Time Use Cases",
+            description:
+              "Teams work with automation examples aligned to operational business processes.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: "benefits",
+      type: "benefits",
+      data: {
+        title: "Business Benefits",
+        description:
+          "Why Orchestrator training drives operational efficiency",
+        items: [
+          {
+            title: "Increased Process Automation",
+            description:
+              "Reduce manual tasks through intelligent workflow automation",
+          },
+          {
+            title: "Faster System Integration",
+            description:
+              "Enable seamless communication between JDE and external platforms",
+          },
+          {
+            title: "Improved Operational Efficiency",
+            description:
+              "Automated workflows reduce delays and improve accuracy",
+          },
+          {
+            title: "Enhanced User Productivity",
+            description:
+              "Teams spend less time on repetitive operational activities",
+          },
+          {
+            title: "Accelerated Digital Transformation",
+            description:
+              "Organizations gain modern integration and automation capabilities",
+          },
+        ],
+        additionalInfo:
+          "Our JD Edwards Orchestrator training can be customized based on your business processes, integration requirements, and EnterpriseOne environment.",
+      },
+    },
+
+    {
+      id: "cta",
+      type: "cta",
+      data: {
+        title: "Ready to Automate Your JDE Processes?",
+        description:
+          "Let’s build an Orchestrator training program tailored to your technical and business goals.",
+        buttonText: "Get in Touch",
+      },
+    },
+  ],
+}
+
+
+
 // ─────────────────────────────────────────────
 //  TRAINING — SERVICENOW
 // ─────────────────────────────────────────────
@@ -453,7 +721,7 @@ export const implementationMicrosoft = {
 //  REGISTRY — keyed by category
 // ─────────────────────────────────────────────
 export const servicesRegistry = {
-  Training: [trainingJDE, trainingServiceNow, trainingMicrosoft],
+  Training: [trainingJDE, trainingServiceNow, trainingMicrosoft, trainingJDECNC, trainingJDEOrchestrator],
   Implementation: [implementationJDE, implementationServiceNow, implementationMicrosoft],
 }
 
