@@ -982,7 +982,7 @@ export const trainingAI = {
 //  REGISTRY — keyed by category
 // ─────────────────────────────────────────────
 export const servicesRegistry = {
-  Training: [trainingJDE, trainingServiceNow, trainingMicrosoft, trainingJDECNC, trainingJDEOrchestrator, trainingSAP, trainingAI],
+  Corporate_Training: [trainingJDE, trainingServiceNow, trainingMicrosoft, trainingJDECNC, trainingJDEOrchestrator, trainingSAP, trainingAI],
   Implementation: [implementationJDE, implementationServiceNow, implementationMicrosoft],
 }
 
