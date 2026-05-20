@@ -715,13 +715,274 @@ export const implementationMicrosoft = {
   ],
 }
 
+// ─────────────────────────────────────────────
+//  TRAINING — SAP
+// ─────────────────────────────────────────────
+export const trainingSAP = {
+  id: "training-sap",
+  label: "SAP Training",
+  category: "Training",
+  sections: [
+    {
+      id: "hero",
+      type: "hero",
+      data: {
+        title: "SAP Training",
+        subtitle: "Empower Teams. Improve Adoption. Maximise ERP Value.",
+        description:
+          "Our SAP training programs are designed to help organizations build confident, skilled users and administrators capable of managing and utilizing SAP systems effectively across business functions.",
+      },
+    },
 
+    {
+      id: "overview",
+      type: "two-column",
+      data: {
+        eyebrow: "SAP TRAINING",
+        title: "Practical SAP Training for Business and Technical Teams",
+        description:
+          "At MFATech, we provide structured SAP training tailored to your business processes, implementation goals, and operational requirements.\n\nOur programs focus on practical learning through real-world scenarios, hands-on exercises, and process-driven training aligned to your SAP environment.\n\nWhether you are preparing users for go-live, training administrators, or enabling technical teams, our approach ensures participants gain practical confidence and operational readiness.\n\nWhat We Deliver:",
+        image: {
+          src: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
+          alt: "SAP Training",
+        },
+        features: [
+          "Functional and technical SAP training",
+          "Role-based end-user enablement",
+          "Hands-on practical workshops",
+          "SAP module-specific guidance",
+          "Business process and workflow training",
+          "Post-training support and knowledge transfer",
+        ],
+      },
+    },
+
+    {
+      id: "process",
+      type: "icon-cards",
+      data: {
+        title: "Our Training Approach",
+        subtitle:
+          "Structured learning designed for enterprise success",
+        cards: [
+          {
+            title: "Business Process Alignment",
+            description:
+              "Training is aligned with your operational workflows and SAP implementation processes.",
+          },
+          {
+            title: "Role-Based Learning",
+            description:
+              "Users receive targeted training based on their responsibilities and system usage.",
+          },
+          {
+            title: "Hands-On System Practice",
+            description:
+              "Participants gain practical experience using real SAP business scenarios.",
+          },
+          {
+            title: "Technical & Functional Enablement",
+            description:
+              "Training supports both business users and technical administration teams.",
+          },
+          {
+            title: "Go-Live Readiness",
+            description:
+              "We ensure users are prepared to operate confidently from day one.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: "benefits",
+      type: "benefits",
+      data: {
+        title: "Business Benefits",
+        description:
+          "Why SAP training is critical for ERP success",
+        items: [
+          {
+            title: "Faster User Adoption",
+            description:
+              "Teams become productive quickly with structured training",
+          },
+          {
+            title: "Improved Operational Efficiency",
+            description:
+              "Users follow optimized business processes effectively",
+          },
+          {
+            title: "Reduced Support Dependency",
+            description:
+              "Well-trained users require less day-to-day support",
+          },
+          {
+            title: "Enhanced System Utilization",
+            description:
+              "Organizations maximize the value of SAP capabilities",
+          },
+          {
+            title: "Stronger Internal Expertise",
+            description:
+              "Build long-term in-house SAP knowledge and competency",
+          },
+        ],
+        additionalInfo:
+          "Our SAP training programs can be customized based on SAP modules, user roles, implementation phases, and organizational objectives.",
+      },
+    },
+
+    {
+      id: "cta",
+      type: "cta",
+      data: {
+        title: "Ready to Build SAP Expertise Across Your Organization?",
+        description:
+          "Let’s create a SAP training program tailored to your business and technical requirements.",
+        buttonText: "Get in Touch",
+      },
+    },
+  ],
+}
+
+
+// ─────────────────────────────────────────────
+//  TRAINING — AI
+// ─────────────────────────────────────────────
+export const trainingAI = {
+  id: "training-ai",
+  label: "AI Training",
+  category: "Training",
+  sections: [
+    {
+      id: "hero",
+      type: "hero",
+      data: {
+        title: "AI Training",
+        subtitle: "Build AI Skills. Drive Innovation. Transform Business Operations.",
+        description:
+          "Our AI training programs help organizations and professionals understand, adopt, and apply Artificial Intelligence technologies to improve productivity, decision-making, and digital transformation initiatives.",
+      },
+    },
+
+    {
+      id: "overview",
+      type: "two-column",
+      data: {
+        eyebrow: "AI TRAINING",
+        title: "Practical AI Training for Modern Businesses",
+        description:
+          "At MFATech, we deliver practical AI training designed for business users, technical teams, developers, and enterprise leaders.\n\nOur programs focus on real-world AI applications including automation, data analysis, generative AI, machine learning concepts, and AI-driven business workflows.\n\nWhether your goal is AI awareness, workforce upskilling, or technical capability building, our training provides hands-on learning tailored to your organizational needs.\n\nWhat We Deliver:",
+        image: {
+          src: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
+          alt: "AI Training",
+        },
+        features: [
+          "Introduction to Artificial Intelligence concepts",
+          "Generative AI and automation training",
+          "AI tools and workflow integration",
+          "Hands-on practical exercises and use cases",
+          "Business-focused AI adoption strategies",
+          "AI best practices, ethics, and governance",
+        ],
+      },
+    },
+
+    {
+      id: "process",
+      type: "icon-cards",
+      data: {
+        title: "Our Training Approach",
+        subtitle:
+          "Structured learning designed for practical AI adoption",
+        cards: [
+          {
+            title: "AI Fundamentals",
+            description:
+              "Participants gain a strong understanding of AI concepts, terminology, and business applications.",
+          },
+          {
+            title: "Hands-On Learning",
+            description:
+              "Training includes practical exercises using modern AI tools and platforms.",
+          },
+          {
+            title: "Business Use Cases",
+            description:
+              "Real-world scenarios demonstrate how AI improves operations and decision-making.",
+          },
+          {
+            title: "Automation & Integration",
+            description:
+              "Teams learn how AI can automate workflows and enhance productivity.",
+          },
+          {
+            title: "Responsible AI Practices",
+            description:
+              "Training covers ethical AI usage, governance, and implementation best practices.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: "benefits",
+      type: "benefits",
+      data: {
+        title: "Business Benefits",
+        description:
+          "Why AI training is essential for future-ready organizations",
+        items: [
+          {
+            title: "Improved Productivity",
+            description:
+              "AI-enabled workflows reduce manual effort and increase efficiency",
+          },
+          {
+            title: "Faster Decision-Making",
+            description:
+              "Teams leverage AI insights for smarter business decisions",
+          },
+          {
+            title: "Enhanced Innovation",
+            description:
+              "Organizations discover new opportunities through AI adoption",
+          },
+          {
+            title: "Workforce Upskilling",
+            description:
+              "Employees gain valuable future-focused technology skills",
+          },
+          {
+            title: "Accelerated Digital Transformation",
+            description:
+              "AI capabilities support long-term business modernization initiatives",
+          },
+        ],
+        additionalInfo:
+          "Our AI training programs can be customized for business users, developers, leadership teams, and enterprise digital transformation initiatives.",
+      },
+    },
+
+    {
+      id: "cta",
+      type: "cta",
+      data: {
+        title: "Ready to Build AI Capabilities in Your Organization?",
+        description:
+          "Let’s design an AI training program tailored to your business goals and workforce needs.",
+        buttonText: "Get in Touch",
+      },
+    },
+  ],
+}
 
 // ─────────────────────────────────────────────
 //  REGISTRY — keyed by category
 // ─────────────────────────────────────────────
 export const servicesRegistry = {
-  Training: [trainingJDE, trainingServiceNow, trainingMicrosoft, trainingJDECNC, trainingJDEOrchestrator],
+  Training: [trainingJDE, trainingServiceNow, trainingMicrosoft, trainingJDECNC, trainingJDEOrchestrator, trainingSAP, trainingAI],
   Implementation: [implementationJDE, implementationServiceNow, implementationMicrosoft],
 }
 
