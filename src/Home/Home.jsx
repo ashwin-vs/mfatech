@@ -145,7 +145,7 @@ function Home() {
 
           {/* Left Image */}
           <div className="relative">
-                                        {/* <img src="/Handshake.jpg" alt="MFATech team" /> */}
+            {/* <img src="/Handshake.jpg" alt="MFATech team" /> */}
 
             <img
               src="Meeting2.jpg"
@@ -211,3 +211,4 @@ function Home() {
 }
 
 export default Home
+
