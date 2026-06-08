@@ -187,15 +187,14 @@ function Footer() {
                                     </svg>
                                     <span>7737444367</span>
                                 </div> */}
-                                <div className="contact-item">
-                                    <svg className="contact-icon w-4 h-4 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                                {/* <div className="contact-item">
+                                    < svg className="contact-icon w-4 h-4 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                                     </svg>
                                     <span>Dallas, Texas
-                                        {/* <br />San Francisco, CA 94105*/}
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
 
                             {/* Socials */}
@@ -228,10 +227,10 @@ function Footer() {
                         ))}
 
                     </div>
-                </div>
+                </div >
 
                 {/* Bottom Bar */}
-                <div className="border-t border-white/[0.07] px-6 sm:px-10 lg:px-24 py-6">
+                < div className="border-t border-white/[0.07] px-6 sm:px-10 lg:px-24 py-6" >
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
                         <p className="text-white/25 text-xs font-light tracking-wide">
                             © {new Date().getFullYear()} MFATech. All rights reserved.
@@ -248,9 +247,9 @@ function Footer() {
                             ))}
                         </div>
                     </div>
-                </div>
+                </div >
 
-            </footer>
+            </footer >
         </>
     )
 }
